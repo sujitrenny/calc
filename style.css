@@ -1,8 +1,8 @@
 body {
-    background-color: black ;
-    color: white ;
-    font-family: Arial, Helvetica, sans-serif ;
-  }
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .center {
     position: absolute;
@@ -10,7 +10,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
 .button {
     display: inline-block;
@@ -25,79 +25,82 @@ body {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-  }
-  
-  .button span {
+}
+
+.button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  .button span:after {
+}
+
+.button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  .button:hover span {
+}
+
+.button:hover span {
     padding-right: 25px;
-  }
-  
-  .button:hover span:after {
+}
+
+.button:hover span:after {
     opacity: 1;
     right: 0;
-  }
+}
 
-  #footer {
+#footer {
     position: absolute;
     bottom: 0;
     width: 99%;
     height: 2rem;
     color: gray;
-  }
+}
 
-  a:link {
+a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
-  }
+}
 
-table, th, td {
+table,
+th,
+td {
     border: none;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 2px;
     padding-left: 2px;
-  }
+}
 
-#calculator{
+#calculator {
     background-color: rgb(51, 51, 51);
     border-radius: 20px;
     padding: 10px;
 }
 
-#result{
+#result {
     background-color: lightblue;
     border: none;
     border-radius: 30px;
 }
-#e{
+
+#e {
     background-color: green;
 }
 
-#c{
+#c {
     background-color: rgb(219, 12, 12);
 }
 
-#op{
+#op {
     color: green;
 }
 
-input{
+input {
     border-radius: 20px;
     border: none;
     background-color: lightcyan;
@@ -108,4 +111,4 @@ input{
     padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
- }
+}
