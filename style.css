@@ -21,7 +21,7 @@ body {
     text-align: center;
     font-size: 18px;
     padding: 8px;
-    width: 160px;
+    width: 170px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -67,13 +67,17 @@ a:link {
 }
 
 table,
-th,
 td {
     border: none;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 2px;
-    padding-left: 2px;
+    padding-left: 2px; 
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;    
 }
 
 #calculator {
@@ -86,6 +90,10 @@ td {
     background-color: lightblue;
     border: none;
     border-radius: 30px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #e {
@@ -107,8 +115,8 @@ input {
     text-align: center;
     font-weight: bold;
     font-size: large;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
